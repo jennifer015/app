@@ -1,10 +1,10 @@
 const awsconfig = {
   Auth: {
-    // Configure estos valores según tu configuración de AWS Amplify
-    identityPoolId: 'YOUR_IDENTITY_POOL_ID',
-    region: 'YOUR_AWS_REGION',
-    userPoolId: 'YOUR_USER_POOL_ID',
-    userPoolWebClientId: 'YOUR_USER_POOL_WEB_CLIENT_ID'
+    region: 'us-east-1',
+    userPoolId: 'us-east-1_oxdsG5r8n',
+    userPoolWebClientId: 'd24rcm3vxndya6', // Reemplaza con el App Client ID real
+    // Si tienes un Identity Pool, descomenta y reemplaza esta línea:
+    // identityPoolId: 'us-east-1:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx',
   }
 };
 
